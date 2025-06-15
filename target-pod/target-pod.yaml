@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: target-pod
+spec:
+  containers:
+    - name: app
+      image: manasipatil691/ubuntu-ssh
+      ports:
+        - containerPort: 22
+

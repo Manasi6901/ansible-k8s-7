@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ansible-pod
+spec:
+  containers:
+    - name: ansible
+      image: manasipatil691/ansible-pod:latest
+      tty: true
+      stdin: true
+
